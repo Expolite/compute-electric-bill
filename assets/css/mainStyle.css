@@ -1,0 +1,146 @@
+
+/* example import font */
+@font-face {
+    font-family: "Kanit_Bold";
+    src: url("fonts/Kanit/Kanit-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Prompt_medium";
+    src: url("fonts/Prompt/Prompt-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Prompt_regular";
+    src: url("fonts/Prompt/Prompt-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto_mono_medium";
+    src: url("fonts/Roboto_Mono/static/RobotoMono-Medium.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Default font use (optional) */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FCDC2A;
+}
+
+center {
+    padding-top: 30px;
+}
+
+.contailer {
+    /* border: 1px solid red; */
+    max-width: 55%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    transition: all .5s ease;
+}
+
+.title_icon {
+    height: 100px;
+}
+
+.title_name {
+    font-family: "Kanit_Bold";
+    font-weight: bold;
+    font-size: 50px;
+    color: #0F0F0F;
+}
+
+.labels_ {
+    font-family: "Prompt_medium";
+    font-size: 16px;
+    color: #0F0F0F;
+}
+
+.labels_ small {
+    color: #0F0F0F;
+}
+
+.txtbox_fields {
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: arial;
+}
+
+.btn_compute {
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100%;
+    font-family: "Prompt_medium";
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #23A7FF;
+}
+
+.btn_compute:hover {
+    background-color: #009AFF;
+}
+
+.footer_container {
+    padding: 10px;
+    /* background-color: #FFB534; */
+    border-top: 2px solid black;
+    font-family: "Prompt_regular";
+    color: black;
+    font-size: 15px;
+}
+
+.br_line_hide {
+    display: none;
+}
+
+.formula_container {
+    font-family: "Prompt_regular";
+}
+
+.formula_contents {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: "Roboto_mono_medium";
+    width: 90%;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .contailer {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contailer {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .contailer {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .br_line_hide {
+        display: block;
+    }
+}

@@ -1,0 +1,8 @@
+yellow - #FCDC2A
+
+bg-white - #EFF1DB
+
+btn-compute - #23A7FF
+btn-hover-compute - #009AFF
+
+black - #0F0F0F
